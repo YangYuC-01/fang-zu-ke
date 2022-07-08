@@ -1,11 +1,12 @@
 <template>
-<div>
-<router-view></router-view>
+<div class="zixun-content">
+    资讯
 </div>
 </template>
 
 <script>
 export default {
+  name: 'ZiXun',
   created () {},
   data () {
     return {}
